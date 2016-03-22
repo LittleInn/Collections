@@ -18,7 +18,7 @@ import com.general.OperationConstants;
 import com.map.MapTypes;
 
 public enum CollectionTypes {
-	
+	 
 	ARRAY_LIST("java.util.ArrayList", OperationConstants.LIST, new ArrayList<Integer>()), 
 	LINKED_LIST("java.util.LinkedList", OperationConstants.LIST,new LinkedList<Integer>()), 
 	COPY_ON_WRITE_ARRAY_LIST("java.util.concurrent.CopyOnWriteArrayList",OperationConstants.LIST, new CopyOnWriteArrayList<Integer>()), 
